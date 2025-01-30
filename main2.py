@@ -8,7 +8,7 @@ import speech_recognition as sr
 import spacy
 
 # Set your OpenAI API key here
-openai.api_key = "sk-svcacct-pm1UYpV49D9H_Id-XZMB_VaEw6GTf0CS4k651ZzseV0K2WEkgDccLRGcBNj6pT3BlbkFJLQsVm3mfrcyd2uShEzGj3tygq6rrL4eEDMkkRS8-kgsJj98jePhIbDrUit1AA"
+openai.api_key = "your open A.I API key"
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
@@ -63,7 +63,7 @@ def get_city_name(text):
 
 
 def get_weather(city):
-    weather_api_key = "a0b7a42763faba6a7e8e16a80ab84907"
+    weather_api_key = "YOUR OPNWEATHER API"
     weather_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={weather_api_key}&units=metric"
 
     try:
