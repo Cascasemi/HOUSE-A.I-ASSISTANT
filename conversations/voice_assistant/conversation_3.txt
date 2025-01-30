@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "You are a helpful assistant."
+    },
+    {
+        "role": "user",
+        "content": "We'll be just the same, huh? You're coming back and you want some."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm sorry, I don't understand what you mean by that. Could you please provide me with more context, so I can assist you better?"
+    }
+]
